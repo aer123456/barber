@@ -1,0 +1,74 @@
+
+/*
+每个html最后的一个元素需要加上一句：
+padding-bottom: 50px; 从而实现sticky footer的效果
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+  background-color: #000;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+html, body, #wrap {
+	height: 100%;
+} 
+#wrap {
+	height: auto;
+	min-height: 100%;
+	background: url('/images/back.jpg') no-repeat;
+}
+.layout_top {
+	width: 100%;
+}
+.layout_head {
+	width: 990px;
+	margin: 0 auto;
+}
+.telimg {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 20px 0 50px; 
+}
+.tel, .time {
+	margin: 0 50px 0 0;
+}
+.layout_a {
+	margin-right: 50px;
+	color: #66ffff;
+	font-size: 18px;
+	margin-top: 16px;
+	text-decoration: none;
+	float: right;
+}
+.layout_top p {
+	display: inline-block;
+	line-height: 50px;
+	font-size: 18px;
+	color: white;
+	vertical-align: top;
+}
+.layout_footer {
+	position: relative;
+	margin-top: -50px; 
+	height: 50px;
+	width: 100%;
+	background-color: #999;
+	clear: both;
+}
+.layout_footer_content {
+	width: 990px;
+	margin: 0 auto;
+	text-align: center;
+}
+.layout_footer_content p {
+	display: inline-block;
+	width: 330px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}

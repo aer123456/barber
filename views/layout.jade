@@ -2,6 +2,23 @@ doctype html
 html
     head
         title= title
-        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/layout.css')
+    block css
     body
-        block content
+        #wrap
+            .layout_top
+                img.telimg(src="/images/tel.png")
+                p.tel 12345678
+                p.time 服务时间：8：00 - 21：00
+                a(href='#').layout_a 店家入口
+                a(href='#').layout_a 登录
+                a(href='#').layout_a 注册
+            block content
+        
+    block footer
+        .layout_footer
+            .layout_footer_content
+                p xxx理发店
+                p 联系电话：12345678
+                p 欢迎您的光临
+    block scripts

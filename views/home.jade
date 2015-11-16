@@ -1,1 +1,45 @@
-h2=title
+extends layout
+block css
+    link(rel='stylesheet', href='/stylesheets/home.css')
+block content
+    .head
+        h2 xx造型
+        a 我要预约
+        a 我要退约
+        a 查看发型库
+        a 关于我们
+        a 我的账户
+    
+    .banner_wrap
+        .banner
+    .body
+        p.strong 最新发型
+        .haircuts
+            a(href="")
+                img.right(src='/images/hair/1.png') 
+            a(href="")
+                img.right(src='/images/hair/1.png') 
+            a(href="")
+                img.right(src='/images/hair/1.png') 
+            a(href="")
+                img.right(src='/images/hair/1.png') 
+            a(href="")
+                img(src='/images/hair/1.png') 
+        p.strong 已等待会员数：
+            span.waiting 5 人
+        .hr
+        p.strong 热度榜
+        .hots
+            .hot
+                a(href="")
+                    img(src="/images/hair/1.png")
+                p xx 人已选择
+            .hot
+                a(href="")
+                    img(src="/images/hair/1.png")
+                p xx 人已选择
+            .hot.last
+                a(href="")
+                    img(src="/images/hair/1.png")
+                p xx 人已选择
+
