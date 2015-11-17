@@ -1,1 +1,46 @@
-h2=title
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/register.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			table
+				tr
+					td.title 请输入用户名：
+					td 
+						input(placeholder='6-12位字母数字混合')
+				tr
+					td.title 请输入密码：
+					td
+						input(placeholder='8-12位数字字母混合')
+				tr
+					td.title 确认密码：
+					td
+						input(placeholder='请与上面密码一致')
+				tr
+					td.title 您的生日：
+					td
+						select
+							option(value="1999") 1999
+							option(value="1998") 1998
+							option(value="1997") 1997
+				tr
+					td.title 电子邮箱：
+					td 
+						input
+				tr
+					td.title 手机号：
+					td
+						input
+				tr
+					td.title 输入验证码：
+					td
+						input.vertify
+					td.recomend
+						img#vertify(src="", alt="验证码")
+			button.confirm 确认注册
+

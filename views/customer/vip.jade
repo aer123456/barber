@@ -1,1 +1,34 @@
-h2=title
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/vip.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 返回首页
+			a(href="/store") 返回店家首页
+			a(href="/store/customer_list") 查看会员列表
+			a(href="") 注销
+		.content
+			span.font.font_show 当前预约人数：
+			span.num 5
+			br
+			span.font.font_show 预计等待时间：
+			span.num 2
+			span.font 小时
+			span.num 40
+			span.font 分钟
+			h1 最近流行
+			.hots
+				.hot
+					a(href="")
+						img(src="/images/hair/1.png")
+					p xx 人已选择
+				.hot
+					a(href="")
+						img(src="/images/hair/1.png")
+					p xx 人已选择
+				.hot.last
+					a(href="")
+						img(src="/images/hair/1.png")
+					p xx 人已选择

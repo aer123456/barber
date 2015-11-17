@@ -1,0 +1,54 @@
+/*.body {
+	width: 990px;
+	padding: 0 0 50px 80px;
+}*/
+.content {
+	width: 990px;
+	background-color: #fff;
+	padding: 50px 0 50px 80px;
+	margin: 30px auto 0 auto;
+}
+table {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+td {
+	line-height: 50px;
+}
+td.title {
+	width: 100px;
+	text-align: right;
+}
+input {
+	border: 1px solid #ddd;
+	width: 200px;
+	line-height: 25px;
+	margin-left: 100px;
+	text-align: center;
+}
+select {
+	margin-left: 100px;
+}
+.vertify {
+	width: 100px;
+	margin-right: 100px;
+}
+#vertify {
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	vertical-align: middle;
+	margin-left: -145px;
+}
+button.confirm {
+	display: block;
+	width: 150px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #66ffff;
+	color: #fff;
+	margin: 30px auto;
+	border-radius: 5px;
+}

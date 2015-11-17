@@ -1,1 +1,16 @@
-h2=title
+extends layout
+block css
+	link(rel="stylesheet", href="/stylesheets/store/store.css")
+block content
+	.body
+		img(src="/images/load.jpg")
+		.input_form_wrap
+			.input_form
+				p.input 请输入账号:
+				input 
+				p.input 请输入密码:
+				input
+				button.btn 登录
+				button.btn 注册
+				a.a 忘记密码？
+				a.a 无法登录？

@@ -1,0 +1,32 @@
+.body {
+	width: 990px;
+	margin: 0 auto;
+}
+.content {
+	background-color: #fff;
+	padding: 50px 50px;
+}
+h2 {
+	margin-bottom: 30px;
+}
+td {
+	border: solid #ddd; 
+	border-width :0px 1px 1px 0px; 
+	padding :10px 0px;
+}
+table {
+	width: 800px;
+	margin: 0 auto 50px auto;
+	text-align: center;
+	border: solid #ddd; 
+	border-width: 1px 0px 0px 1px;
+}
+table .yes {
+	margin-right: 20px;
+	text-decoration: none;
+	color: #05CCF3;
+}
+table .no {
+	text-decoration: none;
+	color: #F3B005;
+}
