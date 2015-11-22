@@ -1,1 +1,18 @@
-h2=title
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/appointing.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		h4 预约信息
+		.appoint
+			h4 预约人数
+			input(type='checkbox' value='1') 1人
+			input(type='checkbox' value='2') 2人
+			input(type='checkbox' value='3') 3人
+			input(type='checkbox' value='4') 4人
+			input(type='checkbox' value='5') 5及以上
+

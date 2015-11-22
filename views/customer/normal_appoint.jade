@@ -1,0 +1,26 @@
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/normal_appoint.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+	.content
+		table
+			tr
+				td.left 选择时间：
+				td.right
+					select
+						option 9:00-12:00
+						option 12:00-18:00
+						option 18:00以后
+			tr
+				td.left 输入手机号：
+				td.right
+					input
+			tr
+				td.left 输入您的姓名：
+				td.right
+					input
+		a(href='/user/normal_do') 完成预约

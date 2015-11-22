@@ -1,0 +1,15 @@
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/change_do.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			h1 密码修改成功！
+			h2 
+				snan 请记住您的新密码： 
+				span.passwd 1234567889
+			a(href='/user/myAccount') 回到首页

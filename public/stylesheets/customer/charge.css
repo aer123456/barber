@@ -1,0 +1,22 @@
+.content {
+	width: 990px;
+	background-color: #fff;
+	padding: 100px 0 100px 80px;
+	margin: 0 auto;
+}
+.content span {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.content a {
+	display: block;
+	width: 150px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #66ffff;
+	color: #fff;
+	margin: 100px auto 0 auto;
+	border-radius: 5px;
+}

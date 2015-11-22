@@ -1,1 +1,21 @@
-h2=title
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/myAccount.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			h1
+				span 您好： 会员 
+				span.name 张三
+				a(href='/user/changePasswd') 修改密码
+			h2  您的预约：
+			h1 2015年 10月 22日 18:00
+			h2 请及时到店消费，逾期一个小时将取消您的预约并扣除相关费用
+			h2 
+				span 账户余额： 
+				span.number 500 元
+				a(href='/user/charge') 充值

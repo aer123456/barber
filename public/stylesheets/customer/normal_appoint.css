@@ -1,0 +1,38 @@
+.content {
+	width: 990px;
+	background-color: #fff;
+	padding: 50px 0 50px 0;
+	margin: 30px auto 0 auto;
+}
+.content table {
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	border-collapse:collapse;
+}
+.content td {
+	padding-left: 50px;
+}
+.content .left {
+	width: 150px;
+}
+.content tr, input {
+	border: 1px solid #999;
+}
+.content input {
+	line-height: 18px;
+	text-align: center;
+}
+.content a{
+	display: block;
+	width: 150px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #66ffff;
+	color: #fff;
+	margin: 30px auto;
+	border-radius: 5px;
+}

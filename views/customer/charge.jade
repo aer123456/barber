@@ -1,0 +1,19 @@
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/charge.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			span 账户余额：
+			span.number 100
+			span 元
+			h3 请选择充值的金额：
+			span 100元
+			span 200元 
+			span 500元
+			h3 支付方式：网上充值目前仅支持支付宝充值，您还可以到店里直接用现金充值或者刷卡充值
+			a(href='/user/charge.do') 下一步

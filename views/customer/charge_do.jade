@@ -1,0 +1,15 @@
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/charge_do.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			h1 充值成功！感谢您的支持
+			span 账户余额：
+			span.number 500
+			span 元
+			a(href='/user/myAccount') 完成充值

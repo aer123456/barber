@@ -1,0 +1,56 @@
+.content {
+	width: 990px;
+	background-color: #fff;
+	padding: 50px;
+	margin: 0 auto 50px auto;
+}
+.content p {
+	margin-top: 30px;
+	font-size: 25px;
+}
+.content p .waiting {
+	font-weight: bolder;
+	color: red;
+}
+.content p a {
+	margin-left: 600px;
+	color: red;
+	text-decoration: none;
+}
+.content .vip {
+	display: block;
+	border-top: 1px solid #999;
+	margin-top: 40px;
+}
+.content .bevip_btn {
+	padding-left: 500px;
+	border-bottom: 1px solid #999;
+}
+.content .bevip_btn a {
+	display: inline-block;
+	width: 150px;
+	line-height: 30px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #66ffff;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 20px 0 50px 50px;
+}
+.content h2 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.content .img_wrap {
+	width: 100%;
+	text-align: center;
+}
+.content .img_wrap img {
+	width: 400px;
+	height: 157px;
+	margin-top: 30px;
+}
+.content .img_wrap .mid {
+	margin-left: 30px;
+}

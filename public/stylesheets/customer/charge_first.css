@@ -1,0 +1,21 @@
+.content {
+	width: 990px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 30px 0 50px 200px;
+}
+.content h2, checkbox, .warmtip, a {
+	display: block;
+	margin-top: 30px;
+}
+.content a {
+	width: 150px;
+	line-height: 30px;
+	font-size: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	background-color: #66ffff;
+	color: #fff;
+	margin: 50px 0 50px 200px;
+} 

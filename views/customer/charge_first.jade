@@ -1,0 +1,16 @@
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/charge_first.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			h2 请选择首次充值的金额（至少大于¥200）：
+			checkbox(value='200') 200
+			checkbox(value='500') 500
+			checkbox(value='100') 1000
+			p.warmtip 温馨提示：本店仅支持支付宝付款和到店充值，此次使用的是支付宝充值，如需现金充值请在到店后进行
+			a(href='#') 下一步

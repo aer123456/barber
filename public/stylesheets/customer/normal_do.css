@@ -1,0 +1,22 @@
+.content {
+	width: 990px;
+	background-color: #fff;
+	padding: 50px 0 50px 80px;
+	margin: 30px auto 0 auto;
+}
+.content h1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.content a {
+	display: block;
+	width: 150px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #66ffff;
+	color: #fff;
+	margin: 80px auto 30px auto;
+	border-radius: 5px;
+}

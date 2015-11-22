@@ -1,0 +1,19 @@
+.content {
+	width: 990px;
+	height: 300px;
+	background-color: #fff;
+	padding-top: 250px;
+	text-align: center;
+	margin: 0 auto;
+}
+.content a {
+	display: block;
+	width: 150px;
+	line-height: 30px;
+	background-color: #66ffff;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 50px auto 0 auto;
+	border-radius: 5px;
+}

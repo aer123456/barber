@@ -1,1 +1,26 @@
-h2=title
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/normal.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user/appointing") 预约
+		.content
+			p
+				span 当前预约人数：
+				span.waiting 5
+				a(href='/hair_style') 查看最新发型
+			p
+				span 预计等待时间：
+				span.waiting 2小时 40分
+			img.vip(src='/images/bevip.png')
+			.bevip_btn
+				a.bevip.left(href='/user/register') 成为会员
+				a.bevip(href='/user/normal_appointing') 先预约
+			h2 会员特权：
+			.img_wrap
+				img(src='/images/lowprice.jpg')
+				img.mid(src='/images/pre_appoint.png')
+				img(src='/images/new.png')

@@ -1,0 +1,25 @@
+.content {
+	width: 990px;
+	background-color: #fff;
+	padding: 50px 0 50px 100px;
+	margin: 0 auto 0 auto;
+}
+.content .name, .number {
+	color: red;
+}
+.content h1, h2 {
+	margin-bottom: 40px;
+	padding-left: 50px;
+}
+.content a {
+	display: inline-block;
+	width: 150px;
+	line-height: 30px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #66ffff;
+	color: #fff;
+	margin-left: 150px;
+	border-radius: 5px;
+}

@@ -1,1 +1,23 @@
-h2=title
+extends ../layout
+block css 
+	link(rel="stylesheet", href="/stylesheets/customer/changePasswd.css")
+block content
+	.body
+		#head
+			h2 xx造型
+			a(href="/") 首页
+			a(href="/user") 会员首页
+		.content
+			h3
+				span 请输入旧密码：
+				input.oldPasswd
+				span 这是您当前账户的密码
+			h3
+				span 请输入新密码：
+				input.oldPasswd
+				span 长度在8-20位，请尽量用字母和数字组合保证复杂度
+			h3
+				span 请确认新密码：
+				input.oldPasswd
+				span 和上一栏中密码相同
+			a(href='/user/change_do') 完成修改

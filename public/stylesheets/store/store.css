@@ -50,6 +50,24 @@ button.btn {
 	background-color: #00ffff;
 	border-radius: 5px;
 }
+a.btn {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	margin-top: 40px;
+	line-height: 30px;
+	background-color: #00ffff;
+	border-radius: 5px;
+}
 a.a {
 	color: #FF9933;
+	text-decoration: none;
 }
+.body .contact {
+	clear: both;
+	padding-top: 20px;
+	text-align: center;
+}
+

@@ -1,0 +1,17 @@
+p {
+	color: #fff;
+	margin: 100px auto 50px auto;
+	text-align: center;
+}
+.contact {
+	display: block;
+	background-color: #66ffff;
+	color: #fff;
+	width: 200px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 0 auto;
+}
