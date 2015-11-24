@@ -7,10 +7,13 @@ block content
 		.input_form_wrap
 			.input_form
 				p.input 请输入账号:
-				input 
+				input.userId
 				p.input 请输入密码:
-				input
-				button.btn 登录
+				input.passWord
+				button.btn(onclick='landing()') 登录
 				button.btn 注册
 				a.a 忘记密码？
 				a.a 无法登录？
+block footer
+	script(src='/javascripts/store/storeLanding.js')
+block sripts

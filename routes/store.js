@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET appointment list page. */
 router.get('/appointment', function(req, res, next) {
-  res.render('store/appointment', { title: '预约列表' });
+  res.render('store/appointment', { title: '预约列表', info: info });
 });
 
 /* GET appointment list page. */

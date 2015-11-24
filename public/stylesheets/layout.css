@@ -91,3 +91,6 @@ html, body, #wrap {
 	text-decoration: none;
 	float: right;
 }
+img {
+	border-radius: 10px;
+}
