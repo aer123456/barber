@@ -1,5 +1,12 @@
 var express = require('express');
 var router = express.Router();
+var redis = require('redis');
+    client = redis.createClient(); 
+
+// redis 错误监听
+client.on("error", function (err) {  
+    console.error("数据库Redis-error：" + err);  
+});
 
 /* GET landing page. */
 router.get('/', function(req, res, next) {
