@@ -9,6 +9,6 @@ function landing() {
 	  type: 'get',
 	  url: '/store/appointment',
 	  data: landingInfo,
-	  success: console.info('done')
+	  success: console.info('post-done')
 	});
 }
