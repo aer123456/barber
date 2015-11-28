@@ -12,6 +12,8 @@
 #                 充值、线上预约、线上消费、取消预约、修改密码、查看其他的预约情况。
 #           非会员：非会员也可在理发店进行预约，但是没有保障权，可能会被会员插队，可以查看理发店的各种信息。
 # 4: 基本解决方案：
+#           代码编写维护：github ＋ sublime；
+#           调试工具：supervisor ＋ Googlechrome ＋ohmyzsh；
 #           后端处理：nodejs的express框架； 数据库：redis；
 #           视图：jade＋stylus；            数据交互：javascript、jquery＋ajax。
 #           构建工具：fis3（百度集成方案）
