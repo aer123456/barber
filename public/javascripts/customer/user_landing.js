@@ -8,9 +8,9 @@ function landing() {
 	  	data: params,
 	  	cache: false,
 	  	success: function(data){
-	  		alert('ajax');
+	  		// alert('ajax');
 	  		if(data == 'success') {
-	  			alert('success');
+	  			// alert('success');
 		  		window.location.href = '/user/myAccount';
 	  		} else {
 	  			alert('用户名或密码不正确！');

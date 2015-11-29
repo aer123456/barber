@@ -25,7 +25,7 @@ function register() {
 	  			alert('该用户名已经存在！请选择其他用户名。');
 	  			window.location.reload();
 	  		} else if(data == 'newUser'){
-	  			alert('new user');
+	  			// alert('new user');
 	  			window.location.href = '/user/reg_success';
 	  		}
 	  	},
